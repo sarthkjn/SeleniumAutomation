@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite">
+	<listeners>
+		<listener
+			class-name="main.java.com.amazon.utils.SuiteListeners" />
+	</listeners>
+	<test name="Test Automation">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="test.java.com.amazon.tests.SampleTest" />
+		</classes>
+	</test>
+</suite> 

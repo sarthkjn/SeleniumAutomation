@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-22T23:25:31 IST" name="Sample Test Suite" finished-at="2021-07-22T23:25:37 IST" duration-ms="5674">
+    <groups>
+    </groups>
+    <test started-at="2021-07-22T23:25:31 IST" name="Test Automation" finished-at="2021-07-22T23:25:37 IST" duration-ms="5674">
+      <class name="test.java.com.amazon.tests.SampleTest">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:test.java.com.amazon.tests.SampleTest@173ed316]" started-at="2021-07-22T23:25:31 IST" name="beforeTestMethod" finished-at="2021-07-22T23:25:31 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:test.java.com.amazon.tests.SampleTest@173ed316]" started-at="2021-07-22T23:25:31 IST" name="beforeMethodMethod" finished-at="2021-07-22T23:25:35 IST" duration-ms="3589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.com.amazon.tests.SampleTest.sampleMethod1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="sampleMethod1()[pri:0, instance:test.java.com.amazon.tests.SampleTest@173ed316]" started-at="2021-07-22T23:25:35 IST" name="sampleMethod1" finished-at="2021-07-22T23:25:36 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethod1 -->
+        <test-method is-config="true" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:test.java.com.amazon.tests.SampleTest@173ed316]" started-at="2021-07-22T23:25:36 IST" name="afterMethodMethod" finished-at="2021-07-22T23:25:36 IST" duration-ms="759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleMethod1 status=SUCCESS method=SampleTest.sampleMethod1()[pri:0, instance:test.java.com.amazon.tests.SampleTest@173ed316] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:test.java.com.amazon.tests.SampleTest@173ed316]" started-at="2021-07-22T23:25:36 IST" name="afterTestMethod" finished-at="2021-07-22T23:25:37 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- test.java.com.amazon.tests.SampleTest -->
+    </test> <!-- Test Automation -->
+  </suite> <!-- Sample Test Suite -->
+</testng-results>
